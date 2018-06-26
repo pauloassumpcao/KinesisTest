@@ -1,3 +1,6 @@
+#!/bin/bash
+#
+# Installs the open source dependencies
 # for Kinesis Video Sdk demo application
 # and builds the demo application
 #
@@ -19,7 +22,6 @@ echo " ===========================Starting to build ===========================
         libtools   log4cplus
         m4         openssl
         zlib
-
         # ------------------------- GSTREAMER - for demo application --------#
         GStreamer, GStreamer plugins, yasm, gst-libav and x264.
         ------------------------------------------------------------------------
@@ -722,4 +724,3 @@ export PATH="$KINESIS_VIDEO_ROOT/downloads/local/bin":$PATH
 echo "**********************************************************"
 echo Success!!!
 echo "**********************************************************"
-
